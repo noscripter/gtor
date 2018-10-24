@@ -1,0 +1,21 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:minimatch:20160620':
+    - jasminum > glob > minimatch:
+        patched: '2018-10-24T02:47:36.982Z'
+    - jasminum > mr > istanbul > fileset > glob > minimatch:
+        patched: '2018-10-24T02:47:36.982Z'
+    - jasminum > mr > istanbul > fileset > minimatch:
+        patched: '2018-10-24T02:47:36.982Z'
+    - jasminum > wd > archiver > file-utils > minimatch:
+        patched: '2018-10-24T02:47:36.982Z'
+    - jasminum > wd > archiver > file-utils > glob > minimatch:
+        patched: '2018-10-24T02:47:36.982Z'
+    - jasminum > wd > archiver > file-utils > findup-sync > glob > minimatch:
+        patched: '2018-10-24T02:47:36.982Z'
+  'npm:tunnel-agent:20170305':
+    - jasminum > wd > request > tunnel-agent:
+        patched: '2018-10-24T02:47:36.982Z'
